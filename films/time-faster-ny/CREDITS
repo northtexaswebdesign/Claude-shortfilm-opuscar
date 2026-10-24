@@ -1,0 +1,14 @@
+Why Time Feels Faster as You Get Older (New Yorker cartoon version)
+
+Picture: every line, wash, figure and letter is drawn by code in this folder (film.js; engine.js adapted from the MIT-licensed Lemo-Opuscar library).
+No generated, stock or third-party images. Style prompt supplied by the user (STYLE.md).
+
+Narration: Kokoro text-to-speech (kokoro-onnx, voice "af_heart"), Apache License 2.0.
+  https://github.com/thewh1teagle/kokoro-onnx · model: https://huggingface.co/hexgrad/Kokoro-82M
+
+Music & sound: original composition and procedural foley (audio/score.py, audio/mix.py).
+Piano: "Salamander Grand Piano V3" by Alexander Holm, licensed under CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
+Samples (CC0 1.0): Karoryfer Samples "Sneakybass" upright bass (https://github.com/sfzinstruments);
+  VS Chamber Orchestra: Community Edition clarinet, Versilian Studios (https://github.com/sgossner/VSCO-2-CE)
+
+Font (SIL Open Font License 1.1): Patrick Hand — Patrick Wagesreiter (fonts/OFL-PatrickHand.txt)
