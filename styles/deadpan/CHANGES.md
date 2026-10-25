@@ -13,3 +13,4 @@
 | §7 Sound | sketchbook ambience, wet brush, many music families | paper room tone, pen and caption scratch, office/living-room foley at cartoon scale; jazz trio, guitar, ukulele, accordion | the prompt's jazz references; quieter palette |
 | §8 Native moves | line before colour, colour as arrival, the one coloured thing, page as frame, carrot people | the caption lands, the straight man, the deadpan turn, the cutaway page (line before colour kept by the engine) | the style's own signatures |
 | §9 Pitfalls | colour-field clipping, occlusion of far ink, IK feet | heavy outlines, ears that read as eyes, joint seams on limbs, clone faces, last letter clipped, over-complete rooms | what went wrong while building the first six films |
+| §6 Camera | no split frame | split frame allowed, at most once per film, only for a direct comparison | the channel's prompt allows a split; the user wants it kept to a minimum |

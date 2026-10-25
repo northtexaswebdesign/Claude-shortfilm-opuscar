@@ -10,18 +10,26 @@ Based on Urban Sketch · Pen & Wash (urban-sketch) from Lemo-Opuscar. Formerly "
 >
 > Nothing is copied from these: no characters, jokes, layouts or type.
 
+**Source prompt** (the channel's own words; every point below is written into the sections that follow):
+
+```text
+Style: New Yorker Cartoon, Ink and Wash · 2D
+
+New Yorker single-panel cartoon, full-bleed, no border. Nib-pen lines about 1/1000 of frame width on straights, swelling to 1/300 in turns, flicking off at the ends; box corners overlap. Pale watercolour washes with pooled edges over most objects, slipping past the lines by at most 1/150 of frame width: grey #9698A0, sea blue #78A0BE, sand #E2CCA0, rust #C45C32, on cold-press paper #FBF8F1 fading to white at the edges. Exaggerated, expressive figures with drawn faces among everyday props. One hand-lettered caption line under the action, in the user's language, about 1/30 of frame height, appearing letter by letter: a deadpan remark. The drawing holds still; living things wobble. Camera: small drifts and pushes; the frame may split into two side-by-side drawings. References: James Thurber, William Steig, Jean-Jacques Sempé. Avoid: saturated colour, uniform vector lines, a small framed panel floating in white.
+```
+
 ## 1. Essence, and what it is not
 
 A cartoon that thinks. Two layers that stay visibly separate:
 
-1. **Ink.** A nib line that swells and thins, from a hairline (about 1/1000 of the frame width) to a confident stroke (about 1/300). Warm black. It wobbles, overshoots corners, and breaks mid-stroke.
-2. **Wash.** Four pale watercolours only, dropped slightly off the line: **grey** `#9698A0`, **sea blue** `#78A0BE`, **sand** `#E2CCA0`, **rust** `#C45C32`, and mixes of them with paper. Never saturated.
+1. **Ink.** A nib line that swells and thins, from a hairline (about 1/1000 of the frame width) to a confident stroke (about 1/300). Thin on straights, swelling in turns, flicking off at the ends. Warm black. It wobbles, breaks mid-stroke, and box corners overlap (lines cross past each other at the corners).
+2. **Wash.** Four pale watercolours only, with pooled (darker, dried) edges over most objects, slipping past the line by at most 1/150 of the frame width: **grey** `#9698A0`, **sea blue** `#78A0BE`, **sand** `#E2CCA0`, **rust** `#C45C32`, and mixes of them with paper. Never saturated.
 
-**The page is warm paper `#FBF8F1`** with fine tooth, fading to white at the frame edge. Nothing is painted edge to edge.
+**The page is cold-press paper `#FBF8F1`** with fine tooth, fading to white at the frame edge. The drawing is full-bleed with no border: it fills the frame, but the wash fades out before the edge.
 
 **People are the subject.** Drawn faces with a big nose, half-lidded or wide eyes, a tilted head, a slouch, hands that talk. A character has an attitude before it has an action.
 
-**One caption**, hand-lettered, about 1/30 of the frame height, written letter by letter under the drawing, and it stays. It is dry, short and never explains the picture.
+**One caption**, hand-lettered in the viewer's language (the film's language), about 1/30 of the frame height, written letter by letter under the action, and it stays. It is dry, short and never explains the picture.
 
 Not Urban Sketch (that is a travel sketchbook: no characters with faces, no caption, many colours). Not a cartoon in the animation sense (no bouncing, no squash, no smears). Not Whiteboard (no marker, no diagrams without a joke). Avoid saturated colour, uniform vector lines, and a small framed panel on a big blank page.
 
@@ -29,7 +37,7 @@ Not Urban Sketch (that is a travel sketchbook: no characters with faces, no capt
 
 - **Paper**: `#FBF8F1`, two octaves of mottling, a tooth tile multiplied over everything (figures too), a soft fade to white at the frame edge.
 - **Ink**: the library's `penStroke` with a nib: width swells in the middle of a stroke and thins at the ends; about 1/1000 to 1/300 of the frame width; wobble about 1 px, overshoot 3–8 px, a gap in a third of long strokes. Strokes bake their draw time, so the page draws itself.
-- **Wash**: two to three layers, multiply, alpha 0.4–0.6, offset 3–5 px from the line, dried edge at 30–40 %. Washes arrive from a point (a wet front), people are lit with a knocked-out paper white first so the wash never muddies the face.
+- **Wash**: two to three layers, multiply, alpha 0.4–0.6, offset 3–5 px from the line (never more than 1/150 of the frame width, about 13 px at 1920), pooled dried edge at 30–40 %. Washes arrive from a point (a wet front), people are lit with a knocked-out paper white first so the wash never muddies the face.
 - **People**: the 2D cartoon rig `demo/toon.js` (see §10): a nib outline round each shape, one wash, no shading except a cool-grey on the back arm and back leg. Figures are redrawn every frame with fresh wobble seeds (they **boil** at 12 fps); the page behind them does not.
 - **Rooms and props**: a few strokes, not a rendering: a floor line, a skirting line, vertical stripes for wallpaper at 45 % alpha, one window, one lamp. Put a prop in only if the joke or the mood needs it.
 - Deterministic: same seed, same marks.
@@ -68,9 +76,12 @@ A 2D camera over a 2400 × 1350 page, shown whole at about 0.8× so the edge fad
 | Hold, then push on the punchline | the beat before the joke | the last seconds before the caption lands |
 | Pull back | the whole absurd situation | a closing wide of the room |
 | Page turn | another day, another cartoon | a sequence of single-panel cartoons |
+| Split frame (rare) | two moments or two versions, side by side | one before/after or then/now comparison; two full-bleed drawings with a thin paper gutter, each half inked at its edge |
 | Tilt into the caption | from picture to words | the moment the caption writes itself |
 
 Framing: people at least ⅓ of frame height; leave air above and below; a character may look out of frame. No dissolves, no whips.
+
+**Split frames are kept to a minimum**: at most one per film, and only when the joke or the explanation is a direct comparison (8 a.m. vs 3 a.m., small vs giant). The single full panel is the default; never split two shots in a row.
 
 ## 7. Sound palette
 
@@ -99,6 +110,7 @@ Framing: people at least ⅓ of frame height; leave air above and below; a chara
 - **Last letters cut off** by a glyph-width clip in cursive fonts → widen the clip for the last character of every handwritten string (done in `kit.js`).
 - **Rooms that are too complete** → fewer lines, wash dropped off-register, plenty of paper.
 - **Panels in a corner of the frame** → the drawing fills the page, it is not a small framed panel.
+- **Too many split frames** read as a comparison chart, not a cartoon → one split at most per film; everything else is one full panel.
 
 ## 10. Engine
 
