@@ -391,6 +391,23 @@
   "dur": 32.4
  },
  {
+  "slug": "autumn-watercolour",
+  "num": "72",
+  "en": "Autumn Watercolour",
+  "cn": "秋日透明水彩",
+  "cat": "手绘与绘画",
+  "cat_en": "Hand-drawn & Painting",
+  "film": "Why Do We Sneeze at the Sun?",
+  "line": "Transparent watercolour glazes in gold, scarlet and rust; paper is the light, leaves drift past the lens, and a deadpan caption lands.",
+  "line_cn": "金、猩红、锈色的透明水彩层层罩染；纸就是光，落叶飘过镜头，一句冷面配文落下。",
+  "uses": [
+   "Science explainers",
+   "Seasonal stories",
+   "The body and nature"
+  ],
+  "dur": 161.4
+ },
+ {
   "slug": "shadow-puppet",
   "num": "07",
   "en": "Shadow Puppetry",
@@ -814,6 +831,23 @@
    "How-to"
   ],
   "dur": 40.0
+ },
+ {
+  "slug": "deadpan",
+  "num": "71",
+  "en": "Deadpan Style",
+  "cn": "冷面幽默漫画",
+  "cat": "卡通与动画",
+  "cat_en": "Cartoon & Anime",
+  "film": "He Did Say He Would Circle Back",
+  "line": "A single-panel magazine cartoon in nib ink and four pale washes; the drawing holds still, only the people wobble, and one deadpan caption writes itself.",
+  "line_cn": "单格杂志漫画：钢笔墨线加四种淡彩；画面静止，只有人物在抖动，一句冷面幽默的配文一笔一划写出来。",
+  "uses": [
+   "Science explainers",
+   "Comedy shorts",
+   "Everyday questions"
+  ],
+  "dur": 27.1
  },
  {
   "slug": "pixel-rpg",

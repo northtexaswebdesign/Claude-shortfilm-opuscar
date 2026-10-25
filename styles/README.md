@@ -41,6 +41,7 @@ Users may name a style in English, in Chinese, or by its folder. Find it here, t
 | One-line Drawing | 一笔画 | [`one-line`](one-line/STYLE.md) | *The Line That Never Lifted* |
 | Whiteboard Explainer | 白板讲解 | [`whiteboard`](whiteboard/STYLE.md) | *Einstein in Your Pocket* |
 | Urban Sketch · Pen & Wash | 钢笔淡彩 | [`urban-sketch`](urban-sketch/STYLE.md) | *Where the Wind Went* |
+| Autumn Watercolour | 秋日透明水彩 | [`autumn-watercolour`](autumn-watercolour/STYLE.md) | *Why Do We Sneeze at the Sun?* |
 
 ## East Asian Traditions · 东方传统
 
@@ -91,6 +92,7 @@ Users may name a style in English, in Chinese, or by its folder. Find it here, t
 | 80s Cel Anime | 80 年代赛璐璐动画 | [`cel-anime-80s`](cel-anime-80s/STYLE.md) | *City Lights, 1987* |
 | Sci-Fi Sitcom Toon | 科幻情景喜剧卡通 | [`scifi-toon`](scifi-toon/STYLE.md) | *Coffee Run* |
 | Mid-century Cartoon | 50s 扁平卡通 | [`midcentury-toon`](midcentury-toon/STYLE.md) | *Meet Pip* |
+| Deadpan Style | 冷面幽默漫画 | [`deadpan`](deadpan/STYLE.md) | *He Did Say He Would Circle Back* |
 
 ## Games · 游戏
 

@@ -1,0 +1,12 @@
+Deadpan Style: demo film (style test)
+Engine: engine.js and poses.js are copied from styles/urban-sketch/demo/ in Lemo-Opuscar (MIT licence, github.com/lemomo-ai/lemo-opuscar), changed here: nib-width ink, warm-black ink, #FBF8F1 paper, white edge fade, per-scene page loading.
+Written for this style: kit.js (page builder and parts), parts.js, toon.js (the cartoon-people rig), film.js, scenes.js, common.js, mix.py.
+Picture: every line, wash, figure and letter is drawn by code. No generated or third-party images.
+Music: original, for ukulele, jazz bass (Karoryfer Sneakybass) and alto sax (Karoryfer Weresax), played on CC0 samples (FreePats, freepats.zenvoid.org; Karoryfer Samples, github.com/sfzinstruments).
+Sound effects and room tone: synthesised in code (core/audio/sfx.py, Lemo-Opuscar, MIT).
+Fonts (SIL Open Font License 1.1, files in fonts/): Patrick Hand SC (Patrick Wagesreiter); Caveat (Impallari Type); Reenie Beanie (James Grieshaber).
+
+Autumn Watercolour demo: Why Do We Sneeze at the Sun? (The Deadpan Why), 2026-10-25
+wc.js (watercolour glazes, blooms, wet-in-wet, ripples, foliage, drifting leaves) written for this style; engine/kit/toon from Deadpan Style (MIT, Lemo-Opuscar).
+Voice: Kokoro TTS (bm_george). Music: harp and steel guitar modelled in code (core/audio/pluck.py, MIT); muted conga (FreePats world percussion, CC0); bagpipe drone (FreePats, CC0).
+Fonts (OFL): Patrick Hand SC, Caveat, Reenie Beanie.

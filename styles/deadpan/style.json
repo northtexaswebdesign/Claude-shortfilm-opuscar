@@ -1,0 +1,18 @@
+{
+ "slug": "deadpan",
+ "num": "71",
+ "en": "Deadpan Style",
+ "cn": "冷面幽默漫画",
+ "category_en": "Cartoon & Anime",
+ "category_cn": "卡通与动画",
+ "film": "He Did Say He Would Circle Back",
+ "line": "A single-panel magazine cartoon in nib ink and four pale washes; the drawing holds still, only the people wobble, and one deadpan caption writes itself.",
+ "line_cn": "单格杂志漫画：钢笔墨线加四种淡彩；画面静止，只有人物在抖动，一句冷面幽默的配文一笔一划写出来。",
+ "uses": [
+  "Science explainers",
+  "Comedy shorts",
+  "Everyday questions"
+ ],
+ "frame_sec": 15.0,
+ "dur": 27.1
+}

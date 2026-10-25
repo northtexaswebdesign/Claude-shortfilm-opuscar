@@ -1,0 +1,71 @@
+[
+ {
+  "id": "s1",
+  "caption": "Bless you, apparently.",
+  "voice": "bm_george",
+  "speed": 0.95,
+  "lang": "en-gb",
+  "text": "Have you ever walked out of a dark cinema into bright sunshine, and immediately sneezed? No, you are not allergic to the sun. And no, the sun did not just tickle your nose. Probably."
+ },
+ {
+  "id": "s2",
+  "caption": "Peer-reviewed. Somehow.",
+  "voice": "bm_george",
+  "speed": 0.95,
+  "lang": "en-gb",
+  "text": "It's called the photic sneeze reflex, and it's surprisingly common. Studies put it somewhere between one in ten and one in three people. Aristotle was already puzzling over it more than two thousand years ago. And scientists later gave it a name that spells out, achoo. Yes. On purpose.",
+  "asr": "It's called the photic sneeze reflex, and it's surprisingly common. Studies put it somewhere between one in ten and one in three people. Aristotle was already puzzling over it more than two thousand years ago, and scientists later gave it a name that spells out a chew, yes, on purpose."
+ },
+ {
+  "id": "s3",
+  "caption": "Nose: one. Pepper: nil.",
+  "voice": "bm_george",
+  "speed": 0.95,
+  "lang": "en-gb",
+  "text": "First, a normal sneeze. Dust or pepper lands in your nose. The trigeminal nerve, which handles feeling in your face, sends an alarm to a sneeze centre in your brainstem. The brainstem pulls the lever. Out comes a sneeze, carrying, by some counts, tens of thousands of droplets. Rude, but effective.",
+  "asr": "First, a normal sneeze, dust or pepper lands in your nose. The trigeminal nerve, which handles feeling in your face, sends an alarm to a sneeze center in your brainstem. The brainstem pulls the lever. Outcomes a sneeze, carrying by some counts tens of thousands of droplets, rude but effective."
+ },
+ {
+  "id": "s4",
+  "caption": "Filed under: nose.",
+  "voice": "bm_george",
+  "speed": 0.95,
+  "lang": "en-gb",
+  "text": "Now add sunlight. Bright light hits your eyes, and the optic nerve fires, telling your pupils to shrink. The leading theory is that in some people, part of that signal spills over into the trigeminal wiring nearby. Your brain gets a burst of very bright, files it under nose, and does the only thing it knows. Achoo. To be fair, scientists still aren't completely sure.",
+  "asr": "Now add sunlight. Bright light hits your eyes and the optic nerve fires, telling your pupils to shrink. The leading theory is that in some people, part of that signal spills over into the trigeminal wiring nearby. Your brain gets a burst of very bright, files it under nose, and does the only thing it knows. A chew. To be fair, scientists still aren't completely sure."
+ },
+ {
+  "id": "s5",
+  "caption": "Eyes are not a renewable resource.",
+  "voice": "bm_george",
+  "speed": 0.95,
+  "lang": "en-gb",
+  "text": "It's usually the sudden change that does it. Dark, then bright. That's why it ambushes you at the end of a tunnel, or when someone opens the curtains. Most people sneeze once or twice, and then it stops. Please don't test this by staring at the sun. Your eyes would like a word."
+ },
+ {
+  "id": "s6",
+  "caption": "Inherited. Like the nose.",
+  "voice": "bm_george",
+  "speed": 0.95,
+  "lang": "en-gb",
+  "text": "It also runs in families. The trait is dominant, so one copy from one parent can be enough. In twenty ten, a genetic study of about five thousand people found a spot on chromosome two linked to it. So if you sneeze at the sun, there's a good chance someone at your family barbecue does too.",
+  "asr": "It also runs in families. The trait is dominant, so one copy from one parent can be enough. In 2010, a genetic study of about 5,000 people found a spot on chromosome 2 linked to it, so if you sneeze at the sun, there's a good chance someone at your family barbecue does too."
+ },
+ {
+  "id": "s7",
+  "caption": "Forwarded to the wrong department.",
+  "voice": "bm_george",
+  "speed": 0.95,
+  "lang": "en-gb",
+  "text": "So when you sneeze at the sun, nothing is wrong with your nose. Your brain just got a very bright message, panicked a little, and sent it to the wrong department. You're not allergic to sunshine. It's a filing error. With tissues."
+ },
+ {
+  "id": "cta",
+  "caption": "No question is stupid. Some are just sunny.",
+  "voice": "bm_george",
+  "speed": 0.95,
+  "lang": "en-gb",
+  "text": "Before you go. If this made you think, wait, why though? Hit subscribe. And tell us your never-stupid question in the comments. The weirder, the better. It might just get answered in a future video, here on The Deadpan Why.",
+  "asr": "Before you go. If this made you think, wait, why though? Hit subscribe. And tell us your never-stupid question in the comments. The weirder, the better. It might just get answered in a future video, here on The Dead Pan Why."
+ }
+]
