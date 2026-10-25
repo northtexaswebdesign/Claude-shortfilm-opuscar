@@ -41,6 +41,7 @@ Users may name a style in English, in Chinese, or by its folder. Find it here, t
 | One-line Drawing | 一笔画 | [`one-line`](one-line/STYLE.md) | *The Line That Never Lifted* |
 | Whiteboard Explainer | 白板讲解 | [`whiteboard`](whiteboard/STYLE.md) | *Einstein in Your Pocket* |
 | Urban Sketch · Pen & Wash | 钢笔淡彩 | [`urban-sketch`](urban-sketch/STYLE.md) | *Where the Wind Went* |
+| Autumn Watercolour | 秋日透明水彩 | [`autumn-watercolour`](autumn-watercolour/STYLE.md) | *Why Do We Sneeze at the Sun?* |
 
 ## East Asian Traditions · 东方传统
 

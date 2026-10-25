@@ -104,7 +104,7 @@ sil = np.ones(N)
 a, b = int((start['s3'] + 5.1) * SR), int((start['s3'] + 5.8) * SR); sil[a:b] = 0; sil = smooth(sil, int(.08 * SR))
 fade = np.minimum(1, np.minimum(np.arange(N) / SR / 1.0, (N - np.arange(N)) / SR / 2.0))
 out = voice + (music * duck[:, None] * .55 + fol * .9 * (1 if True else 0)) * (sil * fade)[:, None]
-out = limit(out) if out.ndim == 2 else out
+out = np.stack([limit(out[:, c]) for c in (0, 1)], 1)   # limit() is 1-D: per channel
 os.makedirs(os.path.join(HERE, 'out'), exist_ok=True); sf.write(os.path.join(HERE, 'out', 'mix.wav'), out[: int(DUR * SR)], SR)
 print('mix', round(DUR, 2), 'peak', round(float(np.abs(out).max()), 3))
 S_ = [e[1] for e in events]; print('instruments used:', sorted(set(S_)))
